@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPCache_Example' do
+  pod 'CPCache', :path => '../'
+
+  target 'CPCache_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
