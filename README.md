@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS8+
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod "CPCache"
 
 ## Author
 
-xiaochengfei, xiaochengfei@didichuxing.com
+CrespoXiao <http://weibo.com/crespoxiao>
 
 ## License
 
