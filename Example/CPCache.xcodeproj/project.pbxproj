@@ -10,6 +10,26 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>0103CB21828D812D89F2CA59</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-CPCache_Example.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>12F62B2700ADEA8ACB9BC7F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0103CB21828D812D89F2CA59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>154016E593E1F3D69FDFC55F</key>
 		<dict>
 			<key>children</key>
@@ -169,7 +189,7 @@
 				<string>6003F590195388D20070C39A</string>
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
-				<string>F6508B6DC60B2F54A01C0D48</string>
+				<string>12F62B2700ADEA8ACB9BC7F9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -254,8 +274,8 @@
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
-				<string>A15C176CDCC9810398E48478</string>
-				<string>B185D5B64C879E4A9221A02E</string>
+				<string>0103CB21828D812D89F2CA59</string>
+				<string>A8FC0451341925ED6CF12BAD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -532,7 +552,7 @@
 				<string>6003F5B0195388D20070C39A</string>
 				<string>6003F5B2195388D20070C39A</string>
 				<string>6003F5B1195388D20070C39A</string>
-				<string>C3B17D76B2A88CC5DFB3E2ED</string>
+				<string>710C69B24E30896FCF4169A3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -1111,6 +1131,13 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>710C69B24E30896FCF4169A3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8FC0451341925ED6CF12BAD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>82043BF782609E49061B60D1</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1224,29 +1251,16 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>A15C176CDCC9810398E48478</key>
+		<key>A8FC0451341925ED6CF12BAD</key>
 		<dict>
 			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>Pods_CPCache_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B185D5B64C879E4A9221A02E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_CPCache_Tests.framework</string>
+			<string>libPods-CPCache_Tests.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
@@ -1289,13 +1303,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>C3B17D76B2A88CC5DFB3E2ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B185D5B64C879E4A9221A02E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>C7CDA8A9A5B75F72EE23E7B5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1336,13 +1343,6 @@ fi
 			<string>../README.md</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6508B6DC60B2F54A01C0D48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A15C176CDCC9810398E48478</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

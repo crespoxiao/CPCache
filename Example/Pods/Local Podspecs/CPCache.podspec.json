@@ -1,0 +1,22 @@
+{
+  "name": "CPCache",
+  "version": "0.1.0",
+  "summary": "CPCache is a lite cache solution.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CPCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaochengfei": "xiaochengfei@didichuxing.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CPCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CPCache/Classes/**/*"
+}
