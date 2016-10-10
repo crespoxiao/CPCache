@@ -27,4 +27,4 @@ CrespoXiao <http://weibo.com/crespoxiao>
 
 ## License
 
-CPCache is available under the MIT license. See the LICENSE file for more info.
+CPCache is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
