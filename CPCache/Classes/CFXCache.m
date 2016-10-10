@@ -154,8 +154,7 @@ static dispatch_semaphore_t _globalLock;
         if (object) { //save
             NSData *data = [NSKeyedArchiver archivedDataWithRootObject:object];
             NSDataWritingOptions writeOptions = NSDataWritingAtomic | NSDataWritingFileProtectionNone;
-            BOOL written = [data writeToURL:fileURL options:writeOptions error:nil];
-            NSAssert(written, @"write failed");
+            [data writeToURL:fileURL options:writeOptions error:nil];
         } else { //delete
             [self moveItemAtURLToTrash:fileURL];
             [self emptyTrash];
