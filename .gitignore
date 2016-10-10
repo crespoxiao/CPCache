@@ -33,7 +33,3 @@ Carthage
 #
 Pods/
 Podfile.lock
-!ONERent.xcworkspace
-
-
-Podfile.lock
