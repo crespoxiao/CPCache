@@ -13,7 +13,7 @@
 
 #pragma mark - set
 /**
- *   the object must implment protocol NSCoding
+ *   the object must implement protocol NSCoding
  */
 + (void)setObject:(nullable id <NSCoding>)object forKey:(nullable NSString *)key;
 
