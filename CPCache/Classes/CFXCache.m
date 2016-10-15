@@ -244,7 +244,7 @@ static dispatch_semaphore_t _globalLock;
 }
 
 - (BOOL)moveItemAtURLToTrash:(NSURL *)itemURL {
-    if (![[NSFileManager defaultManager] fileExistsAtPath:[itemURL path]]){
+    if (!itemURL || ![[NSFileManager defaultManager] fileExistsAtPath:[itemURL path]]){
         return NO;
     }
     NSError *error = nil;
